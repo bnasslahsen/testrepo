@@ -1,0 +1,12 @@
+site:
+  title: Antora Demo Site
+  url: https://my-antora-demo-site.org
+  start_page: component-b::index.adoc
+content:
+  sources:
+    - url: https://orahub.oci.oraclecorp.com/badr.nass.lahsen/helios.git
+      start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
